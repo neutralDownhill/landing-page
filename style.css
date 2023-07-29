@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header, #first, #second, #third, #fourth {
+    padding: 0 75px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+a, a:link, a:active, a:visited {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+button {
+    background: #3882F6;
+    color: #E5E7EB;
+    border: 0px;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 8px 25px;
+}
+
+button, #fourth {
+    background: #3882F6;
+}
+
+#header > * {
+    color: #E5E7EB;
+    flex: 0 1 auto;
+    gap: 15px;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+#logo {
+    color: F9FAF8;
+    flex: 1 0 auto;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.large-text {
+    color: F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#header, #first, footer {
+    background: #1F2937;
+    color: #fff;
+}
+
+#first {
+    display: flex;
+    gap: 30px;
+    padding: 100px 75px;
+    align-items: center;
+}
+
+#first > * {
+    flex: 1 1 50%;
+}
+
+#first button {
+    margin-top: 15px;
+}
+
+#first img {
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#second {
+    color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 75px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#second .img-header {
+    flex 1 1 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 25px;
+}
+
+#second > *:not(.img-header) {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+#second img {
+    height: 175px;
+    width: 175px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+
+#third {
+    background: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#quote, #attribution {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quote {
+    font-style: italic;
+}
+
+#attribution {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+#fourth {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 800px;
+    margin: 75px auto;
+    padding: 50px 100px;
+    border-radius: 15px;
+}
+
+#call-to-action {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#fourth button {
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+}
